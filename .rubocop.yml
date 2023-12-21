@@ -1,0 +1,9 @@
+inherit_gem:
+  rubocop-cargosense: config/default.yml
+
+AllCops:
+  TargetRubyVersion: "3.0"
+
+Naming/FileName:
+  Exclude:
+    - lib/rubocop-cargosense.rb
