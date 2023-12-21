@@ -1,0 +1,177 @@
+inherit_mode:
+  merge:
+    - Exclude
+    - Include
+
+require:
+  - rubocop-performance
+  - rubocop-rake
+
+AllCops:
+  ActiveSupportExtensionsEnabled: true
+  DisplayStyleGuide: true
+  ExtraDetails: true
+  NewCops: enable
+
+Layout/ClassStructure:
+  Enabled: true
+  ExpectedOrder:
+    - module_inclusion
+    - constants
+    - association
+    - public_attribute_macros
+    - public_delegate
+    - macros
+    - public_class_methods
+    - initializer
+    - public_methods
+    - protected_attribute_macros
+    - protected_methods
+    - private_attribute_macros
+    - private_delegate
+    - private_methods
+
+Layout/EmptyLineAfterMultilineCondition:
+  Enabled: true
+
+Layout/FirstHashElementIndentation:
+  EnforcedStyle: consistent
+
+Layout/HeredocArgumentClosingParenthesis:
+  Enabled: true
+
+Layout/MultilineArrayLineBreaks:
+  Enabled: true
+
+Layout/MultilineAssignmentLayout:
+  Enabled: true
+
+Layout/MultilineHashKeyLineBreaks:
+  Enabled: true
+
+Layout/MultilineMethodArgumentLineBreaks:
+  Enabled: true
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented_relative_to_receiver
+
+Layout/MultilineMethodParameterLineBreaks:
+  Enabled: true
+
+Layout/MultilineOperationIndentation:
+  EnforcedStyle: indented
+
+Layout/ParameterAlignment:
+  EnforcedStyle: with_fixed_indentation
+
+Lint/HeredocMethodCallPosition:
+  Enabled: true
+
+Metrics/BlockLength:
+  CountAsOne:
+    - array
+    - hash
+    - heredoc
+    - method_call
+
+Metrics/ClassLength:
+  CountAsOne:
+    - array
+    - hash
+    - heredoc
+    - method_call
+
+Metrics/MethodLength:
+  CountAsOne:
+    - array
+    - hash
+    - heredoc
+    - method_call
+
+Metrics/ModuleLength:
+  CountAsOne:
+    - array
+    - hash
+    - heredoc
+    - method_call
+
+Metrics/ParameterLists:
+  CountKeywordArgs: false
+
+Naming/InclusiveLanguage:
+  Enabled: true
+
+Naming/VariableNumber:
+  Enabled: false
+
+Performance/ChainArrayAllocation:
+  Enabled: true
+
+Performance/IoReadlines:
+  Enabled: true
+
+Performance/OpenStruct:
+  Enabled: true
+
+Performance/SelectMap:
+  Enabled: true
+
+Style/ArrayCoercion:
+  Enabled: true
+
+Style/AutoResourceCleanup:
+  Enabled: true
+
+Style/ClassMethodsDefinitions:
+  Enabled: true
+
+Style/CollectionMethods:
+  Enabled: true
+
+Style/DateTime:
+  Enabled: true
+
+Style/Documentation:
+  Enabled: false
+
+Style/EmptyMethod:
+  EnforcedStyle: expanded
+
+Style/HashSyntax:
+  EnforcedShorthandSyntax: never
+
+Style/MethodCalledOnDoEndBlock:
+  Enabled: true
+
+Style/MultilineMethodSignature:
+  Enabled: true
+
+Style/OptionHash:
+  Enabled: true
+
+Style/ReturnNil:
+  Enabled: true
+
+Style/Send:
+  Enabled: true
+
+Style/StaticClass:
+  Enabled: true
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/StringLiteralsInInterpolation:
+  EnforcedStyle: double_quotes
+
+Style/StringMethods:
+  Enabled: true
+
+Style/SymbolArray:
+  EnforcedStyle: brackets
+
+Style/WordArray:
+  EnforcedStyle: brackets
+
+Style/UnlessLogicalOperators:
+  Enabled: true
