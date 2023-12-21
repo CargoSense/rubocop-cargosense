@@ -1,0 +1,17 @@
+{
+  "name": "rubocop-cargosense",
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "EditorConfig.EditorConfig",
+        "jasonnutter.vscode-codeowners",
+        "Shopify.ruby-lsp"
+      ]
+    }
+  },
+  "image": "mcr.microsoft.com/devcontainers/ruby:3.2-bookworm",
+  "postCreateCommand": ".devcontainer/setup.sh"
+}
