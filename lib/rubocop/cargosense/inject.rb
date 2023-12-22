@@ -5,7 +5,7 @@ module RuboCop
     module Inject
       def self.defaults!
         path = CONFIG_DEFAULT.to_s
-        hash = ConfigLoader.public_send(:load_yaml_configuration, path)
+        hash = ConfigLoader.load_file(path)
         config = Config.new(hash, path).tap(&:make_excludes_absolute)
         puts "configuration from #{path}" if ConfigLoader.debug?
         config = ConfigLoader.merge_with_default(config, path, unset_nil: false)
