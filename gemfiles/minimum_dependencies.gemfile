@@ -1,0 +1,9 @@
+# frozen_string_literal: true
+
+eval_gemfile "../Gemfile"
+
+File
+  .read("rubocop-cargosense.gemspec")
+  .each_line(chomp: true)
+  .grep(/add_runtime_dependency/) { |line| line.scan(/add_runtime_dependency "(.+)", "~> (.+)"$/).flatten }
+  .each { |line| gem line[0], line[1] }
