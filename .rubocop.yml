@@ -1,5 +1,6 @@
-inherit_gem:
-  rubocop-cargosense: config/default.yml
+inherit_from: config/default.yml
+
+require: rubocop-packaging
 
 AllCops:
   TargetRubyVersion: "3.0"
