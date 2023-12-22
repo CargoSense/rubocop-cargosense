@@ -1,12 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "lib/rubocop/cargosense/version"
-
 Gem::Specification.new do |spec|
   spec.required_ruby_version = ">= 3.0"
 
   spec.name          = "rubocop-cargosense"
-  spec.version       = RuboCop::CargoSense::VERSION
+  spec.version       = "0.1.0"
   spec.authors       = ["CargoSense"]
   spec.email         = ["rubygems@cargosense.com"]
 
