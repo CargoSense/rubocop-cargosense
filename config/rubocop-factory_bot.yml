@@ -1,0 +1,8 @@
+# Code style checking for factory_bot files. A plugin for the RuboCop code style
+# enforcing & linting tool.
+#
+# @see https://rubygems.org/gems/rubocop-factory_bot
+# @see https://docs.rubocop.org/rubocop-factory_bot
+# @see https://github.com/rubocop/rubocop-factory_bot
+
+require: rubocop-factory_bot

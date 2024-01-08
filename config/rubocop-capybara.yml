@@ -1,0 +1,8 @@
+# Code style checking for Capybara test files (RSpec, Cucumber, Minitest). A
+# plugin for the RuboCop code style enforcing & linting tool.
+#
+# @see https://rubygems.org/gems/rubocop-capybara
+# @see https://docs.rubocop.org/rubocop-capybara
+# @see https://github.com/rubocop/rubocop-capybara
+
+require: rubocop-capybara
