@@ -1,0 +1,6 @@
+inherit_from:
+  - ./rubocop-layout.yml
+  - ./rubocop-lint.yml
+  - ./rubocop-metrics.yml
+  - ./rubocop-naming.yml
+  - ./rubocop-style.yml
