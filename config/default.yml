@@ -1,8 +1,11 @@
 inherit_from:
   - ./rubocop.yml
+  - ./rubocop-capybara.yml
+  - ./rubocop-factory_bot.yml
   - ./rubocop-performance.yml
   - ./rubocop-rails.yml
   - ./rubocop-rake.yml
+  - ./rubocop-rspec.yml
 
 inherit_mode:
   merge:

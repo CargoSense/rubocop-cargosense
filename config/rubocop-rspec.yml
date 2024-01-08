@@ -1,0 +1,21 @@
+# Code style checking for RSpec files. A plugin for the RuboCop code style
+# enforcing & linting tool.
+#
+# @see https://rubygems.org/gems/rubocop-rspec
+# @see https://docs.rubocop.org/rubocop-rspec
+# @see https://github.com/rubocop/rubocop-rspec
+
+require: rubocop-rspec
+
+RSpec/DescribedClassModuleWrapping:
+  Enabled: true
+
+RSpec/ExampleLength:
+  CountAsOne:
+    - array
+    - hash
+    - heredoc
+    - method_call
+
+RSpec/MessageExpectation:
+  Enabled: true
