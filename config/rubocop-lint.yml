@@ -1,2 +1,6 @@
+# Lint cops check for ambiguities and possible errors in your code.
+#
+# @see https://docs.rubocop.org/rubocop/cops_lint.html
+
 Lint/HeredocMethodCallPosition:
   Enabled: true
