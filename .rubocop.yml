@@ -8,3 +8,6 @@ AllCops:
 Naming/FileName:
   Exclude:
     - lib/rubocop-cargosense.rb
+
+Rails:
+  Enabled: false
