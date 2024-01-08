@@ -1,3 +1,8 @@
+# Layout cops inspect your code for consistent use of indentation, alignment,
+# and white space.
+#
+# @see https://docs.rubocop.org/rubocop/cops_layout.html
+
 Layout/ClassStructure:
   Enabled: true
   ExpectedOrder:

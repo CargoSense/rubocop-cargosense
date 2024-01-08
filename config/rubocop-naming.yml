@@ -1,3 +1,8 @@
+# Naming cops check for naming issue of your code, such as method name, constant
+# name, file name, etc.
+#
+# @see https://docs.rubocop.org/rubocop/cops_naming.html
+
 Naming/InclusiveLanguage:
   Enabled: true
 

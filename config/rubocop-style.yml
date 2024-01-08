@@ -1,3 +1,8 @@
+# Style cops check for stylistic consistency of your code. Many of the them are
+# based on the Ruby Style Guide.
+#
+# @see https://docs.rubocop.org/rubocop/cops_style.html
+
 Style/ArrayCoercion:
   Enabled: true
 

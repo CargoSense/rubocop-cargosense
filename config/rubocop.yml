@@ -1,3 +1,10 @@
+# RuboCop is a Ruby code style checking and code formatting tool. It aims to
+# enforce the community-driven Ruby Style Guide.
+#
+# @see https://rubygems.org/gems/rubocop
+# @see https://docs.rubocop.org/rubocop
+# @see https://github.com/rubocop/rubocop
+
 inherit_from:
   - ./rubocop-layout.yml
   - ./rubocop-lint.yml
