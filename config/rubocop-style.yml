@@ -1,0 +1,59 @@
+Style/ArrayCoercion:
+  Enabled: true
+
+Style/AutoResourceCleanup:
+  Enabled: true
+
+Style/ClassMethodsDefinitions:
+  Enabled: true
+
+Style/CollectionMethods:
+  Enabled: true
+
+Style/DateTime:
+  Enabled: true
+
+Style/Documentation:
+  Enabled: false
+
+Style/EmptyMethod:
+  EnforcedStyle: expanded
+
+Style/HashSyntax:
+  EnforcedShorthandSyntax: never
+
+Style/MethodCalledOnDoEndBlock:
+  Enabled: true
+
+Style/MultilineMethodSignature:
+  Enabled: true
+
+Style/OptionHash:
+  Enabled: true
+
+Style/ReturnNil:
+  Enabled: true
+
+Style/Send:
+  Enabled: true
+
+Style/StaticClass:
+  Enabled: true
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/StringLiteralsInInterpolation:
+  EnforcedStyle: double_quotes
+
+Style/StringMethods:
+  Enabled: true
+
+Style/SymbolArray:
+  EnforcedStyle: brackets
+
+Style/WordArray:
+  EnforcedStyle: brackets
+
+Style/UnlessLogicalOperators:
+  Enabled: true
