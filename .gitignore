@@ -2,4 +2,3 @@
 /.ruby-lsp/
 /coverage/
 /pkg/
-Gemfile.lock
