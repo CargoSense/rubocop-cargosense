@@ -7,6 +7,12 @@ updates:
       interval: "weekly"
     reviewers:
       - "CargoSense/ruby-reviewers"
+  - package-ecosystem: "devcontainers"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    reviewers:
+      - "CargoSense/dx-reviewers"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
