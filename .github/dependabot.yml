@@ -18,4 +18,5 @@ updates:
     schedule:
       interval: "weekly"
     reviewers:
+      - "CargoSense/dx-reviewers"
       - "CargoSense/ruby-reviewers"
