@@ -4,7 +4,7 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = ">= 3.0"
 
   spec.name          = "rubocop-cargosense"
-  spec.version       = "0.2.0"
+  spec.version       = "1.0.0"
   spec.authors       = ["CargoSense"]
   spec.email         = ["rubygems@cargosense.com"]
 
@@ -31,5 +31,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "rubocop-performance", "~> 1.20"
   spec.add_runtime_dependency "rubocop-rails", "~> 2.23"
   spec.add_runtime_dependency "rubocop-rake", "~> 0.6"
-  spec.add_runtime_dependency "rubocop-rspec", "~> 2.26"
+  spec.add_runtime_dependency "rubocop-rspec", "~> 2.28"
+  spec.add_runtime_dependency "rubocop-rspec_rails", "~> 2.28.1"
 end
