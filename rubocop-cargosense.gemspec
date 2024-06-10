@@ -32,5 +32,5 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "rubocop-rails", "~> 2.23"
   spec.add_runtime_dependency "rubocop-rake", "~> 0.6"
   spec.add_runtime_dependency "rubocop-rspec", "~> 2.28"
-  spec.add_runtime_dependency "rubocop-rspec_rails", "~> 2.28.1"
+  spec.add_runtime_dependency "rubocop-rspec_rails", ">= 2.28.1", "< 2.30.0"
 end
