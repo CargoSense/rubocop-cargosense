@@ -25,7 +25,7 @@ Gem::Specification.new do |spec|
     "source_code_uri" => "#{spec.homepage}/tree/v#{spec.version}"
   }
 
-  spec.add_runtime_dependency "rubocop", "~> 1.59"
+  spec.add_runtime_dependency "rubocop", "~> 1.61"
   spec.add_runtime_dependency "rubocop-capybara", "~> 2.20"
   spec.add_runtime_dependency "rubocop-factory_bot", "~> 2.25"
   spec.add_runtime_dependency "rubocop-performance", "~> 1.20"
