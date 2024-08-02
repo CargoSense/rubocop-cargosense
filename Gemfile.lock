@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     rubocop-cargosense (2.0.0)
-      rubocop (~> 1.61)
+      rubocop (~> 1.64)
       rubocop-capybara (~> 2.20)
       rubocop-factory_bot (~> 2.26.1)
       rubocop-performance (~> 1.20)
