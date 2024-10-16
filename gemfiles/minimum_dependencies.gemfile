@@ -5,5 +5,5 @@ eval_gemfile "../Gemfile"
 File
   .read("rubocop-cargosense.gemspec")
   .each_line(chomp: true)
-  .grep(/add_dependency/) { |line| line.scan(/add_dependency "(.+)", "~> (.+)"$/).flatten }
+  .grep(/add_dependency/) { |line| line.scan(/add_dependency "(.+?)",.* "(?:>=?|~>) (.+)"$/).flatten }
   .each { |line| gem line[0], line[1] }
