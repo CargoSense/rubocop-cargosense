@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.required_ruby_version = ">= 3.1"
+  spec.required_ruby_version = ">= 3.3"
 
   spec.name          = "rubocop-cargosense"
-  spec.version       = "3.2.0"
+  spec.version       = "4.0.0"
   spec.authors       = ["CargoSense"]
   spec.email         = ["rubygems@cargosense.com"]
 
