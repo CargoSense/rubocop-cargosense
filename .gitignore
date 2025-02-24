@@ -2,3 +2,4 @@
 /.ruby-lsp/
 /coverage/
 /pkg/
+Gemfile.local

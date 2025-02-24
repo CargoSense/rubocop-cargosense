@@ -11,14 +11,11 @@ on:
 
 jobs:
   test:
-    name: Ruby ${{ matrix.ruby }} » ${{matrix.gemfile}}
+    name: Ruby ${{ matrix.ruby }}
     runs-on: ubuntu-latest
-    env:
-      BUNDLE_GEMFILE: ${{ matrix.gemfile }}
     strategy:
       fail-fast: false
       matrix:
-        gemfile: [Gemfile, gemfiles/minimum_dependencies.gemfile]
         ruby: [3.3, 3.4]
     steps:
       - uses: actions/checkout@v4
@@ -26,6 +23,32 @@ jobs:
         with:
           bundler-cache: true
           ruby-version: ${{ matrix.ruby }}
+      - name: RuboCop version
+        run: bundle info rubocop | head -1
+      - run: bundle exec rake
+  oldest_supported_rubocop:
+    name: Oldest supported RuboCop version
+    runs-on: ubuntu-latest
+    env:
+      BUNDLE_FROZEN: false
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use the oldest supported RuboCop
+        run: |
+          cat << EOF > Gemfile.local
+            gem "rubocop", "1.64"
+            gem "rubocop-capybara", "2.20"
+            gem "rubocop-factory_bot", "2.26.1"
+            gem "rubocop-performance", "1.20"
+            gem "rubocop-rails", "2.23"
+            gem "rubocop-rake", "0.6"
+            gem "rubocop-rspec", "3.0.1"
+            gem "rubocop-rspec_rails", "2.30"
+          EOF
+      - uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+          ruby-version: 3.3
       - name: RuboCop version
         run: bundle info rubocop | head -1
       - run: bundle exec rake
