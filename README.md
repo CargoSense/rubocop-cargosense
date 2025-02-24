@@ -16,16 +16,16 @@ gem "rubocop-cargosense", require: false
 
 ## Usage
 
-Include rubocop-cargosense in your project's `.rubocop.yml` using [RuboCop's `require` directive](https://docs.rubocop.org/rubocop/extensions.html#loading-extensions):
+Include rubocop-cargosense in your project's `.rubocop.yml` using [RuboCop's `plugins` directive](https://docs.rubocop.org/rubocop/extensions.html#loading-extensions):
 
 ```yaml
 # .rubocop.yml
-require:
+plugins:
   - rubocop-cargosense
 ```
 
 > [!TIP]
-> If rubocop-cargosense is your project's only RuboCop extension, you can simplify the above directive: `require: rubocop-cargosense`
+> If rubocop-cargosense is your project's only RuboCop extension, you can simplify the above directive: `plugins: rubocop-cargosense`
 
 Or, inherit rubocop-cargosense's default configuration using [RuboCop's `inherit_gem` directive](https://docs.rubocop.org/rubocop/configuration.html#inheriting-configuration-from-a-dependency-gem):
 
