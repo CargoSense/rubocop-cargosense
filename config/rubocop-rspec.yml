@@ -5,7 +5,7 @@
 # @see https://docs.rubocop.org/rubocop-rspec
 # @see https://github.com/rubocop/rubocop-rspec
 
-require: rubocop-rspec
+plugins: rubocop-rspec
 
 RSpec/DescribedClassModuleWrapping:
   Enabled: true
