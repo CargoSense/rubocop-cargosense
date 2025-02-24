@@ -3,4 +3,4 @@
 # @see https://rubygems.org/gems/rubocop-rake
 # @see https://github.com/rubocop/rubocop-rake
 
-require: rubocop-rake
+plugins: rubocop-rake

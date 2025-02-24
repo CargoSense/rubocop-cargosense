@@ -5,7 +5,7 @@
 # @see https://docs.rubocop.org/rubocop-performance
 # @see https://github.com/rubocop/rubocop-performance
 
-require: rubocop-performance
+plugins: rubocop-performance
 
 Performance/ChainArrayAllocation:
   Enabled: true

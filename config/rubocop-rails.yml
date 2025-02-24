@@ -5,7 +5,7 @@
 # @see https://docs.rubocop.org/rubocop-rails
 # @see https://github.com/rubocop/rubocop-rails
 
-require: rubocop-rails
+plugins: rubocop-rails
 
 Rails/DefaultScope:
   Enabled: true
