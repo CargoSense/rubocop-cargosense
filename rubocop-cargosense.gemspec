@@ -25,12 +25,13 @@ Gem::Specification.new do |spec|
     "source_code_uri" => "#{spec.homepage}/tree/v#{spec.version}"
   }
 
-  spec.add_dependency "rubocop", "~> 1.64"
+  spec.add_dependency "lint_roller"
+  spec.add_dependency "rubocop", "~> 1.72", ">= 1.72.2"
   spec.add_dependency "rubocop-capybara", "~> 2.20"
   spec.add_dependency "rubocop-factory_bot", "~> 2.26", ">= 2.26.1"
-  spec.add_dependency "rubocop-performance", "~> 1.20"
-  spec.add_dependency "rubocop-rails", "~> 2.23"
-  spec.add_dependency "rubocop-rake", "~> 0.6"
-  spec.add_dependency "rubocop-rspec", "~> 3.0", ">= 3.0.1"
+  spec.add_dependency "rubocop-performance", "~> 1.24"
+  spec.add_dependency "rubocop-rails", "~> 2.30"
+  spec.add_dependency "rubocop-rake", "~> 0.7", ">= 0.7.1"
+  spec.add_dependency "rubocop-rspec", "~> 3.5"
   spec.add_dependency "rubocop-rspec_rails", "~> 2.30"
 end
