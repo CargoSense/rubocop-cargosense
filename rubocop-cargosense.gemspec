@@ -1,16 +1,18 @@
 # frozen_string_literal: true
 
+require_relative "lib/rubocop/cargosense"
+
 Gem::Specification.new do |spec|
   spec.required_ruby_version = ">= 3.3"
 
-  spec.name          = "rubocop-cargosense"
-  spec.version       = "4.0.0"
+  spec.name          = RuboCop::CargoSense::NAME
+  spec.version       = RuboCop::CargoSense::VERSION
   spec.authors       = ["CargoSense"]
   spec.email         = ["rubygems@cargosense.com"]
 
-  spec.summary       = "Reusable RuboCop configuration for CargoSense's Ruby projects."
+  spec.summary       = RuboCop::CargoSense::DESCRIPTION
   spec.description   = spec.summary
-  spec.homepage      = "https://github.com/CargoSense/rubocop-cargosense"
+  spec.homepage      = RuboCop::CargoSense::HOMEPAGE
   spec.license       = "MIT"
 
   spec.files         = Dir["config/**/*", "lib/**/*"].reject { |f| File.directory?(f) }
@@ -21,6 +23,7 @@ Gem::Specification.new do |spec|
   spec.metadata = {
     "bug_tracker_uri" => "#{spec.homepage}/issues",
     "changelog_uri" => "#{spec.homepage}/releases",
+    "default_lint_roller_plugin" => "RuboCop::CargoSense::Plugin",
     "rubygems_mfa_required" => "true",
     "source_code_uri" => "#{spec.homepage}/tree/v#{spec.version}"
   }

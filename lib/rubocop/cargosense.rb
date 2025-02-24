@@ -2,10 +2,9 @@
 
 module RuboCop
   module CargoSense
-    PROJECT_ROOT   = Pathname.new(__dir__).parent.parent.expand_path.freeze
-    CONFIG_DEFAULT = PROJECT_ROOT.join("config", "default.yml").freeze
-    CONFIG         = YAML.safe_load(CONFIG_DEFAULT.read).freeze
-
-    private_constant :CONFIG_DEFAULT, :PROJECT_ROOT
+    NAME = "rubocop-cargosense"
+    VERSION = "5.0.0"
+    HOMEPAGE = "https://github.com/CargoSense/rubocop-cargosense"
+    DESCRIPTION = "Reusable RuboCop configuration for CargoSense's Ruby projects."
   end
 end

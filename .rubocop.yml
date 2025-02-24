@@ -1,4 +1,4 @@
-inherit_from: config/default.yml
+plugins: rubocop-cargosense
 
 require: rubocop-packaging
 
