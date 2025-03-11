@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rubocop-cargosense (5.1.0)
+    rubocop-cargosense (5.2.0)
       lint_roller
       rubocop (~> 1.72, >= 1.72.2)
       rubocop-capybara (~> 2.22)
