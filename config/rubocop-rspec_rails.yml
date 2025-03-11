@@ -5,4 +5,4 @@
 # @see https://docs.rubocop.org/rubocop-rspec_rails
 # @see https://github.com/rubocop/rubocop-rspec_rails
 
-require: rubocop-rspec_rails
+plugins: rubocop-rspec_rails

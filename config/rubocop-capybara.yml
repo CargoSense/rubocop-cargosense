@@ -5,7 +5,7 @@
 # @see https://docs.rubocop.org/rubocop-capybara
 # @see https://github.com/rubocop/rubocop-capybara
 
-require: rubocop-capybara
+plugins: rubocop-capybara
 
 Capybara/ClickLinkOrButtonStyle:
   EnforcedStyle: strict
