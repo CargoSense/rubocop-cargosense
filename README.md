@@ -4,7 +4,7 @@
 
 [![Gem](https://img.shields.io/gem/v/rubocop-cargosense.svg?logo=rubygems&style=for-the-badge)](https://rubygems.org/gems/rubocop-cargosense)
 [![Downloads](https://img.shields.io/gem/dt/rubocop-cargosense.svg?logo=rubygems&style=for-the-badge)](https://rubygems.org/gems/rubocop-cargosense)
-[![Build](https://img.shields.io/github/actions/workflow/status/CargoSense/rubocop-cargosense/ci.yml?branch=main&logo=github&style=for-the-badge)](https://github.com/CargoSense/rubocop-cargosense/actions/workflows/ci.yml)
+[![Build](https://img.shields.io/github/actions/workflow/status/CargoSense/rubocop-cargosense/ci.yml?logo=github&style=for-the-badge)](https://github.com/CargoSense/rubocop-cargosense/actions/workflows/ci.yml)
 
 ## Installation
 
