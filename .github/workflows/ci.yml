@@ -36,7 +36,7 @@ jobs:
       - name: Use the oldest supported RuboCop
         run: |
           cat << EOF > Gemfile.local
-            gem "rubocop", "1.72.2"
+            gem "rubocop", "1.73"
             gem "rubocop-capybara", "2.22"
             gem "rubocop-factory_bot", "2.27"
             gem "rubocop-performance", "1.24"
