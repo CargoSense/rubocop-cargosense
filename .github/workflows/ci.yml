@@ -48,7 +48,6 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
-          ruby-version: 3.3
       - name: RuboCop version
         run: bundle info rubocop | head -1
       - run: bundle exec rake
