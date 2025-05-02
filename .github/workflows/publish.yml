@@ -20,9 +20,8 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
+          rubygems: latest
       - uses: rubygems/release-gem@v1
-        with:
-          await-release: false
   publish-to-github-packages:
     name: Publish to GitHub Packages
     permissions:
