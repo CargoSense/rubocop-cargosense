@@ -25,7 +25,7 @@ Gem::Specification.new do |spec|
     "changelog_uri" => "#{spec.homepage}/releases",
     "default_lint_roller_plugin" => "RuboCop::CargoSense::Plugin",
     "rubygems_mfa_required" => "true",
-    "source_code_uri" => "#{spec.homepage}/tree/v#{spec.version}"
+    "source_code_uri" => "#{spec.homepage}/tree/v#{spec.version}",
   }
 
   spec.add_dependency "lint_roller"
