@@ -3,7 +3,7 @@
 module RuboCop
   module CargoSense
     NAME = "rubocop-cargosense"
-    VERSION = "5.2.0"
+    VERSION = "6.0.0"
     HOMEPAGE = "https://github.com/CargoSense/rubocop-cargosense"
     DESCRIPTION = "Reusable RuboCop configuration for CargoSense's Ruby projects."
   end
