@@ -15,6 +15,9 @@
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   // "forwardPorts": [],
 
+  // An array of Docker CLI arguments that should be used when running the container.
+  "runArgs": ["--name", "rubocop-cargosense"],
+
   // Use 'postCreateCommand' to run commands after the container is created.
   "postCreateCommand": ".devcontainer/setup.sh",
 
