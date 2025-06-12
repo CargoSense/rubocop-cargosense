@@ -6,3 +6,7 @@
 # @see https://github.com/rubocop/rubocop-rspec_rails
 
 plugins: rubocop-rspec_rails
+
+RSpecRails/InferredSpecType:
+  Inferences:
+    services: service
