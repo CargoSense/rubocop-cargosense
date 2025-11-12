@@ -1,3 +1,4 @@
-* @CargoSense/ruby-reviewers
+*                @CargoSense/ruby-reviewers
 
-/.github/ @CargoSense/dx-reviewers
+.devcontainer/   @CargoSense/dx-reviewers
+.github/         @CargoSense/dx-reviewers
