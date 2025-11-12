@@ -3,13 +3,14 @@
 {
   "name": "rubocop-cargosense",
   // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-  "image": "mcr.microsoft.com/devcontainers/base:1-bookworm",
+  "image": "mcr.microsoft.com/devcontainers/base:trixie",
 
   // Features to add to the dev container. More info: https://containers.dev/features.
   "features": {
-    "ghcr.io/rails/devcontainer/features/ruby:1": {
-      "version": "3.4.4"
-    }
+    "ghcr.io/devcontainers/features/ruby:1": {
+      "version": "3.4.7"
+    },
+    "ghcr.io/CargoSense/devcontainer-features/bundler:1": {}
   },
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
@@ -25,9 +26,11 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "EditorConfig.EditorConfig",
         "jasonnutter.vscode-codeowners"
-      ]
+      ],
+      "settings": {
+        "rubyLsp.rubyVersionManager.identifier": "rvm"
+      }
     }
   }
 
