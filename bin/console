@@ -11,7 +11,5 @@ require "rubocop-cargosense"
 # require "pry"
 # Pry.start
 
-ENV["IRBRC"] = ".irbrc"
-
 require "irb"
 IRB.start(__FILE__)
