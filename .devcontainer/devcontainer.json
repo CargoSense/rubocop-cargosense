@@ -16,8 +16,9 @@
   // An array of Docker CLI arguments that should be used when running the container.
   "runArgs": ["--name", "rubocop-cargosense"],
 
-  // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": ".devcontainer/setup.sh",
+  // Use 'updateContentCommand' to run commands when creating the container and rerun when the
+  // workspace content was updated while creating the container.
+  "updateContentCommand": "bundle install",
 
   // Configure tool-specific properties.
   "customizations": {
