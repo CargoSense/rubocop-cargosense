@@ -7,7 +7,7 @@
 
   // Features to add to the dev container. More info: https://containers.dev/features.
   "features": {
-    "ghcr.io/CargoSense/devcontainer-features/bundler:1": {}
+    "ghcr.io/CargoSense/devcontainer-features/bundler:2": {}
   },
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
@@ -24,10 +24,12 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "jasonnutter.vscode-codeowners"
+        "editorconfig.editorconfig",
+        "jasonnutter.vscode-codeowners",
+        "Shopify.ruby-lsp"
       ],
       "settings": {
-        "rubyLsp.rubyVersionManager.identifier": "rvm"
+        "rubyLsp.rubyVersionManager.identifier": "none"
       }
     }
   }
