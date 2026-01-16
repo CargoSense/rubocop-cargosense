@@ -21,12 +21,15 @@ jobs:
     name: Oldest supported RuboCop version
     runs-on: ubuntu-latest
     env:
+      BUNDLE_GEMFILE: Gemfile.local
       BUNDLE_FROZEN: false
     steps:
       - uses: actions/checkout@v6
       - name: Use the oldest supported RuboCop
         run: |
           cat << EOF > Gemfile.local
+            eval_gemfile File.expand_path("Gemfile", __dir__)
+
             gem "rubocop", "1.73"
             gem "rubocop-capybara", "2.22"
             gem "rubocop-factory_bot", "2.27"
