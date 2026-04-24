@@ -35,7 +35,7 @@ GEM
     connection_pool (3.0.2)
     date (3.5.1)
     drb (2.2.3)
-    erb (6.0.1)
+    erb (6.0.1.1)
     i18n (1.14.8)
       concurrent-ruby (~> 1.0)
     io-console (0.8.2)
@@ -63,7 +63,7 @@ GEM
       date
       stringio
     racc (1.8.1)
-    rack (3.2.5)
+    rack (3.2.6)
     rainbow (3.1.1)
     rake (13.3.1)
     rdoc (7.2.0)
