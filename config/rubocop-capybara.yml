@@ -6,6 +6,3 @@
 # @see https://github.com/rubocop/rubocop-capybara
 
 plugins: rubocop-capybara
-
-Capybara/ClickLinkOrButtonStyle:
-  EnforcedStyle: strict
