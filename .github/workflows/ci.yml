@@ -30,8 +30,8 @@ jobs:
           cat << EOF > Gemfile.local
             eval_gemfile File.expand_path("Gemfile", __dir__)
 
-            gem "rubocop", "1.73"
-            gem "rubocop-capybara", "2.22"
+            gem "rubocop", "1.81"
+            gem "rubocop-capybara", "3.0.0"
             gem "rubocop-factory_bot", "2.27"
             gem "rubocop-performance", "1.24"
             gem "rubocop-rails", "2.30"
