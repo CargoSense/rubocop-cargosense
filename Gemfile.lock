@@ -3,7 +3,7 @@ PATH
   specs:
     rubocop-cargosense (6.2.0)
       lint_roller
-      rubocop (~> 1.73)
+      rubocop (~> 1.81)
       rubocop-capybara (~> 3.0.0)
       rubocop-factory_bot (~> 2.27)
       rubocop-performance (~> 1.24)
