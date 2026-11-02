@@ -32,7 +32,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "lint_roller"
   spec.add_dependency "rubocop", "~> 1.81"
-  spec.add_dependency "rubocop-capybara", ">= 3.0", "< 3.2"
+  spec.add_dependency "rubocop-capybara", "~> 3.0"
   spec.add_dependency "rubocop-factory_bot", "~> 2.27"
   spec.add_dependency "rubocop-performance", "~> 1.24"
   spec.add_dependency "rubocop-rails", "~> 2.30"
